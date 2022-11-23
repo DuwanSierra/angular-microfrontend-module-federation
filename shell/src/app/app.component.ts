@@ -18,9 +18,6 @@ export class AppComponent {
 
   async ngOnInit(): Promise<void> {
     const manifest = getManifest<CustomManifest>();
-    
-    // Hint: Move this to an APP_INITIALIZER 
-    //  to avoid issues with deep linking
     const routes = buildRoutes(manifest);
     this.router.resetConfig(routes);
     this.remotes = Object.values(manifest);

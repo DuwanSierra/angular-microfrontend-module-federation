@@ -3,6 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'mf2'
+  },
+  {
     path: 'mf1',
     loadChildren: () => import('./mf1/mf1.module').then((m) => m.Mf1Module),
   }
