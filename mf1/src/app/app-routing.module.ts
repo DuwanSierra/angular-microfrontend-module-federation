@@ -5,7 +5,7 @@ export const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'mf2'
+    redirectTo: 'mf1'
   },
   {
     path: 'mf1',

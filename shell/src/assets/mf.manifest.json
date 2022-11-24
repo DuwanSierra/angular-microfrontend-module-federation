@@ -12,5 +12,12 @@
         "displayName": "Mf2",
         "routePath": "mf2",
         "ngModuleName": "Mf2Module"
+    },
+    "dashboard": {
+        "remoteEntry": "http://localhost:4203/remoteEntry.js",
+        "exposedModule": "./Module",
+        "displayName": "Dashboard",
+        "routePath": "dashboard",
+        "ngModuleName": "DashboardModule"
     }
 }
