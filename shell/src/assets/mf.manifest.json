@@ -19,5 +19,12 @@
         "displayName": "Dashboard",
         "routePath": "dashboard",
         "ngModuleName": "DashboardModule"
+    },
+    "auth": {
+        "remoteEntry": "http://localhost:4204/remoteEntry.js",
+        "exposedModule": "./Module",
+        "displayName": "Auth",
+        "routePath": "auth",
+        "ngModuleName": "AuthModule"
     }
 }
