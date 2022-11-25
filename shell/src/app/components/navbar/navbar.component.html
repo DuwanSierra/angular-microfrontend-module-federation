@@ -11,7 +11,6 @@
         </label>
         <div class="nav-container">
             <ul class="nav-tabs">
-                <li class="nav-tab"><a routerLink="/">Home</a></li>
                 <li *ngFor="let remote of (remotes | async)" class="nav-tab"><a [routerLink]="remote.routePath">{{remote.displayName}}</a></li>
             </ul>
         </div>
